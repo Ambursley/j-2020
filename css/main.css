@@ -1,9 +1,5 @@
 /* =================================================================== 
  *
- *  Count v1.0 Main Stylesheet
- *  04-16-2018
- *  ------------------------------------------------------------------
- *
  *  TOC:
  *  # base style overrides
  *    ## links
@@ -2207,6 +2203,7 @@ html.no-csstransitions .home-content__main {
     text-transform: uppercase;
     letter-spacing: .22rem;
     color: #171717;
+    background-color: #ffffff;
     height: 42px;
     width: 42px;
     line-height: 42px;
@@ -2227,8 +2224,10 @@ html.no-csstransitions .home-content__main {
     display: block;
     position: absolute;
     top: 0;
-    right: -220px;
-    width: 220px;
+    right: -185px;
+    width: 185px;
+    background-color: #ffffff;
+    height: 42px;
     padding-left: 12px;
     opacity: 1;
     visibility: visible;
