@@ -1375,7 +1375,7 @@ input::-moz-focus-inner {
 
 .home-content__main {
     max-width: 1400px;
-    padding-top: 15rem;
+    padding-top: 5rem;
     position: relative;
     overflow: hidden;
 }
@@ -1873,6 +1873,9 @@ html.no-csstransitions .home-content__main {
     }
     .home-content br {
         display: none;
+    }
+    .home-content__main {
+    padding-top: 15rem;
     }
     .home-content__main,
     .home-copyright {
