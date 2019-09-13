@@ -48,6 +48,30 @@ body .content {
     position: relative;
 }
 
+@media only screen and (max-width: 1000px) {
+    .content {
+        padding: 0 20px;
+        font-size: 40px !important;
+    }
+    .content p {
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    .footer {
+        font-size: 35px;
+        letter-spacing: 3px;
+        top: 60% !important;
+    }
+    html .content span,
+    body .content span {
+        width: 45px !important;
+        display: inline-block;
+    }
+    .content img {
+        width: 40px;
+    }
+}
+
 html .content span,
 body .content span {
     width: 18px;
