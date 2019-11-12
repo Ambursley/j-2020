@@ -512,7 +512,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:"Averta W05 Black"
+    font-family:"Averta W05 Black";
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 3.4rem;
@@ -742,7 +742,7 @@ h6 {
 }
 
 .block-quote {
-    font-family:"Averta W05 Black"
+    font-family:"Averta W05 Black";
     font-size: 1.71rem;
     font-weight: 700;
     margin: 3.42rem 0 2.4rem;
@@ -2353,7 +2353,7 @@ iframe {
 }
 
 .menu-container__item {
-    font-family:"Averta W05 Black"
+    font-family:"Averta W05 Black";
     font-size: 2.42rem;
     font-weight: 700;
     display: inline-block;
