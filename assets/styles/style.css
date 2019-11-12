@@ -45,6 +45,7 @@
 @import url(bootstrap.min.css);
 @import url(swiper.min.css);
 @import url(animate.css);
+@import url(demo.css);
 
 /* Font */
 
@@ -71,7 +72,7 @@ This CSS resource incorporates links to font software which is the valuable copy
     }
 
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,900&display=swap');
+
 
 /* -----------------------------------------------------------------
     - General Styles
@@ -512,8 +513,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:"Averta W05 Black";
-    font-weight: 700;
+    font-family:'Averta W05 Black';
+    
     line-height: 1.2;
     margin-bottom: 3.4rem;
 }
