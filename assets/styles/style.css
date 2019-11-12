@@ -49,29 +49,29 @@
 
 /* Font */
 
+
 /*
 This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: https://www.linotype.com
 */
 
+@import url("https://fast.fonts.net/lt/1.css?apiType=css&c=0377169a-d940-4a8c-84cc-c0fe328877bc&fontids=5218687,5345108,5359362");
+@font-face {
+    font-family: "Averta W05 Black";
+    src: url("../fonts/LT-WebFonts/fonts/5218687/7b5f71d1-8153-4aab-89a6-bba606ee51d2.eot?#iefix");
+    src: url("../fonts/LT-WebFonts/fonts/5218687/7b5f71d1-8153-4aab-89a6-bba606ee51d2.eot?#iefix") format("eot"), url("../fonts/LT-WebFonts/fonts/5218687/aba97dfc-be26-42b8-9925-0fb07fcb471b.woff2") format("woff2"), url("../fonts/LT-WebFonts/fonts/5218687/c5bcd25e-fd66-4f17-b5cf-1fa6ff81e44d.woff") format("woff"), url("../fonts/LT-WebFonts/fonts/5218687/9a51cd14-0edc-4d19-98ff-ec0a7b6ca194.ttf") format("truetype");
+}
 
-    @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=0377169a-d940-4a8c-84cc-c0fe328877bc&fontids=5218687,5345108,5359362");
-    @font-face{
-        font-family:"Averta W05 Black";
-        src:url("Fonts/5218687/7b5f71d1-8153-4aab-89a6-bba606ee51d2.eot?#iefix");
-        src:url("Fonts/5218687/7b5f71d1-8153-4aab-89a6-bba606ee51d2.eot?#iefix") format("eot"),url("Fonts/5218687/aba97dfc-be26-42b8-9925-0fb07fcb471b.woff2") format("woff2"),url("Fonts/5218687/c5bcd25e-fd66-4f17-b5cf-1fa6ff81e44d.woff") format("woff"),url("Fonts/5218687/9a51cd14-0edc-4d19-98ff-ec0a7b6ca194.ttf") format("truetype");
-    }
-    @font-face{
-        font-family:"Averta W05 Regular5345108";
-        src:url("Fonts/5345108/513a6dbd-6ed6-4ed6-b433-f30ee4fd83ec.eot?#iefix");
-        src:url("Fonts/5345108/513a6dbd-6ed6-4ed6-b433-f30ee4fd83ec.eot?#iefix") format("eot"),url("Fonts/5345108/d02cc25f-189b-4af6-a351-cd55c66a0de5.woff2") format("woff2"),url("Fonts/5345108/17c318a8-9db6-4ddc-84ec-d7aac0a16946.woff") format("woff"),url("Fonts/5345108/f4c9fa80-125f-41a1-9cc0-071195855cb8.ttf") format("truetype");
-    }
-    @font-face{
-        font-family:"Averta W05 Semibold Italic";
-        src:url("Fonts/5359362/d8bd4007-8da5-43fb-9627-06f8a969990e.eot?#iefix");
-        src:url("Fonts/5359362/d8bd4007-8da5-43fb-9627-06f8a969990e.eot?#iefix") format("eot"),url("Fonts/5359362/642b7e0b-0bb8-460a-8c48-582a0ff230eb.woff2") format("woff2"),url("Fonts/5359362/c77a7b0a-6451-4c2a-bb12-7055eb09957e.woff") format("woff"),url("Fonts/5359362/e748a77f-2bde-4b65-8529-dbf19fa99c72.ttf") format("truetype");
-    }
+@font-face {
+    font-family: "Averta W05 Regular5345108";
+    src: url("../fonts/LT-WebFonts/fonts/5345108/513a6dbd-6ed6-4ed6-b433-f30ee4fd83ec.eot?#iefix");
+    src: url("../fonts/LT-WebFonts/fonts/5345108/513a6dbd-6ed6-4ed6-b433-f30ee4fd83ec.eot?#iefix") format("eot"), url("../fonts/LT-WebFonts/fonts/5345108/d02cc25f-189b-4af6-a351-cd55c66a0de5.woff2") format("woff2"), url("../fonts/LT-WebFonts/fonts/5345108/17c318a8-9db6-4ddc-84ec-d7aac0a16946.woff") format("woff"), url("../fonts/LT-WebFonts/fonts/5345108/f4c9fa80-125f-41a1-9cc0-071195855cb8.ttf") format("truetype");
+}
 
-
+@font-face {
+    font-family: "Averta W05 Semibold Italic";
+    src: url("../fonts/LT-WebFonts/fonts/5359362/d8bd4007-8da5-43fb-9627-06f8a969990e.eot?#iefix");
+    src: url("../fonts/LT-WebFonts/fonts/5359362/d8bd4007-8da5-43fb-9627-06f8a969990e.eot?#iefix") format("eot"), url("../fonts/LT-WebFonts/fonts/5359362/642b7e0b-0bb8-460a-8c48-582a0ff230eb.woff2") format("woff2"), url("../fonts/LT-WebFonts/fonts/5359362/c77a7b0a-6451-4c2a-bb12-7055eb09957e.woff") format("woff"), url("../fonts/LT-WebFonts/fonts/5359362/e748a77f-2bde-4b65-8529-dbf19fa99c72.ttf") format("truetype");
+}
 
 
 /* -----------------------------------------------------------------
@@ -513,8 +513,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family:'Averta W05 Black';
-    
+    font-family: 'Averta W05 Black';
     line-height: 1.2;
     margin-bottom: 3.4rem;
 }
@@ -577,7 +576,9 @@ h6 {
 }
 
 .title_h4 {
-    font-size: 2rem;
+    font-family: "Averta W05 Semibold Italic";
+    color: #ED0F69;
+    font-size: 1.95rem;
     margin-bottom: 2.28rem;
 }
 
@@ -614,7 +615,7 @@ h6 {
 .title_h7 {
     color: #ED0F69;
     font-size: 4rem;
-    margin-bottom: -15px;
+    margin-bottom: -5px;
 }
 
 @media only screen and (max-width: 580px) {
@@ -743,7 +744,7 @@ h6 {
 }
 
 .block-quote {
-    font-family:"Averta W05 Black";
+    font-family: "Averta W05 Black";
     font-size: 1.71rem;
     font-weight: 700;
     margin: 3.42rem 0 2.4rem;
@@ -2354,7 +2355,7 @@ iframe {
 }
 
 .menu-container__item {
-    font-family:"Averta W05 Black";
+    font-family: "Averta W05 Black";
     font-size: 2.42rem;
     font-weight: 700;
     display: inline-block;
@@ -2407,6 +2408,8 @@ iframe {
     height: 1.5rem;
 }
 
+
+
 .menu-container__item:hover::after {
     left: 0;
     width: 100%;
@@ -2420,6 +2423,7 @@ iframe {
     -webkit-animation: reveal-link 1s cubic-bezier(0.72, 0.16, 0.345, 0.875) both;
     animation: reveal-link 1s cubic-bezier(0.72, 0.16, 0.345, 0.875) both;
 }
+*/
 
 @media only screen and (max-width: 580px) {
     .menu-container__item:hover {
@@ -2501,7 +2505,7 @@ iframe {
 }
 
 .ef-background {
-    background-color: #33333A;
+    background-color: #ED0F69;
     display: none;
     height: 100%;
     position: fixed;
