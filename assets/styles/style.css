@@ -73,6 +73,12 @@ This CSS resource incorporates links to font software which is the valuable copy
     src: url("../fonts/5359362/d8bd4007-8da5-43fb-9627-06f8a969990e.eot?#iefix") format("eot"), url("../fonts/5359362/642b7e0b-0bb8-460a-8c48-582a0ff230eb.woff2") format("woff2"), url("../fonts/5359362/c77a7b0a-6451-4c2a-bb12-7055eb09957e.woff") format("woff"), url("../fonts/5359362/e748a77f-2bde-4b65-8529-dbf19fa99c72.ttf") format("truetype");
 }
 
+@font-face{
+        font-family:"Averta W05 Black Italic5225663";
+        src:url("../fonts/5225663/c61227d2-7ebc-4370-bf93-74c009d03f10.eot?#iefix");
+        src:url("../fonts/5225663/c61227d2-7ebc-4370-bf93-74c009d03f10.eot?#iefix") format("eot"),url("../fonts/5225663/ee836e64-bcaa-4ce0-a8af-824330353b93.woff2") format("woff2"),url("../fonts/5225663/bdb5b372-0e5a-4312-b669-24984ff2ac01.woff") format("woff"),url("../fonts/5225663/a783c0a5-fa08-4984-b1d5-35dc7b496469.ttf") format("truetype");
+    }
+
 
 /* -----------------------------------------------------------------
     - General Styles
@@ -624,6 +630,14 @@ h6 {
     }
 }
 
+.baseline-shift {
+    position : relative;
+    font-size : 50%;
+    top : -18px; 
+    font-family: "Averta W05 Regular5345108";
+    
+}
+
 .title_display {
     font-size: 5.5rem;
     margin-bottom: 4rem;
@@ -643,9 +657,7 @@ h6 {
 
 .title_overhead {
     color: #787d86;
-    font-family: "Roboto", sans-serif;
     font-size: .9rem;
-    font-weight: 400;
     letter-spacing: .2rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -783,10 +795,10 @@ h6 {
 }
 
 .block-quote cite {
-    font-family: "Roboto", sans-serif;
+    font-family: "Averta W05 Regular5345108";
     font-size: 1rem;
     font-style: normal;
-    font-weight: 400;
+ 
 }
 
 a {
@@ -1002,8 +1014,8 @@ iframe {
 }
 
 .navbar .logotype {
-    width: 6rem;
-    padding-top: 10px;
+    width: 5rem;
+    padding-top: 1px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -1016,10 +1028,7 @@ iframe {
     .navbar {
         height: 80px;
     }
-    .navbar .logotype {
-        width: 2.5rem;
-        padding-top: 2px;
-    }
+    
 }
 
 @media only screen and (max-width: 580px) {
@@ -1044,12 +1053,18 @@ iframe {
     .navbar-viewer .mr-auto {
         width: 100%;
     }
+    .navbar .logotype {
+        width: 2.5rem;
+        padding-top: 2px !important;
+    }
+    
 }
 
 @media only screen and (max-height: 320px) {
     .open .navbar {
         background-color: transparent;
     }
+    
 }
 
 .hamburger {
@@ -2386,7 +2401,7 @@ iframe {
     position: absolute;
     right: 0;
     top: 50%;
-    transition: all 0.6s cubic-bezier(0.72, 0.16, 0.345, 0.875);
+
     width: 0;
 }
 
@@ -2407,8 +2422,15 @@ iframe {
     height: 1.5rem;
 }
 
+.menu-container__item:hover {
+    color: #ED0F69;
+    font-family:"Averta W05 Black Italic5225663";
+    -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+}
 
-
+/*
 .menu-container__item:hover::after {
     left: 0;
     width: 100%;
@@ -3015,9 +3037,8 @@ iframe {
 
 .title_contact {
     color: #787d86;
-    font-family: "Roboto", sans-serif;
+    font-family: "Averta W05 Regular5345108";
     font-size: 1.28rem;
-    font-weight: 400;
     margin-bottom: 1.8rem;
 }
 
@@ -3282,9 +3303,8 @@ iframe {
 
 .news-item__detail {
     color: #787d86;
-    font-family: "Roboto", sans-serif;
+    font-family: "Averta W05 Regular5345108";
     font-size: .9rem;
-    font-weight: 400;
     letter-spacing: .2rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
@@ -3424,9 +3444,8 @@ iframe {
 }
 
 .news-singel__details .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Averta W05 Regular5345108";
     font-size: .8rem;
-    font-weight: 400;
     letter-spacing: .2rem;
     margin-bottom: .5rem;
     text-transform: uppercase;
@@ -3625,9 +3644,8 @@ iframe {
 }
 
 .section-comments .media .media-header .user-comment {
-    font-family: "Roboto", sans-serif;
+    font-family: "Averta W05 Regular5345108";
     font-size: 1.14rem;
-    font-weight: 500;
     margin-bottom: .5rem;
 }
 
