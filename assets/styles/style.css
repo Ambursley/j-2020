@@ -57,20 +57,20 @@ This CSS resource incorporates links to font software which is the valuable copy
 @import url("https://fast.fonts.net/lt/1.css?apiType=css&c=0377169a-d940-4a8c-84cc-c0fe328877bc&fontids=5218687,5345108,5359362");
 @font-face {
     font-family: "Averta W05 Black";
-    src: url("../fonts/LT-WebFonts/fonts/5218687/7b5f71d1-8153-4aab-89a6-bba606ee51d2.eot?#iefix");
-    src: url("../fonts/LT-WebFonts/fonts/5218687/7b5f71d1-8153-4aab-89a6-bba606ee51d2.eot?#iefix") format("eot"), url("../fonts/LT-WebFonts/fonts/5218687/aba97dfc-be26-42b8-9925-0fb07fcb471b.woff2") format("woff2"), url("../fonts/LT-WebFonts/fonts/5218687/c5bcd25e-fd66-4f17-b5cf-1fa6ff81e44d.woff") format("woff"), url("../fonts/LT-WebFonts/fonts/5218687/9a51cd14-0edc-4d19-98ff-ec0a7b6ca194.ttf") format("truetype");
+    src: url("../fonts/5218687/7b5f71d1-8153-4aab-89a6-bba606ee51d2.eot?#iefix");
+    src: url("../fonts/5218687/7b5f71d1-8153-4aab-89a6-bba606ee51d2.eot?#iefix") format("eot"), url("../fonts/5218687/aba97dfc-be26-42b8-9925-0fb07fcb471b.woff2") format("woff2"), url("../fonts/5218687/c5bcd25e-fd66-4f17-b5cf-1fa6ff81e44d.woff") format("woff"), url("../fonts/5218687/9a51cd14-0edc-4d19-98ff-ec0a7b6ca194.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Averta W05 Regular5345108";
-    src: url("../fonts/LT-WebFonts/fonts/5345108/513a6dbd-6ed6-4ed6-b433-f30ee4fd83ec.eot?#iefix");
-    src: url("../fonts/LT-WebFonts/fonts/5345108/513a6dbd-6ed6-4ed6-b433-f30ee4fd83ec.eot?#iefix") format("eot"), url("../fonts/LT-WebFonts/fonts/5345108/d02cc25f-189b-4af6-a351-cd55c66a0de5.woff2") format("woff2"), url("../fonts/LT-WebFonts/fonts/5345108/17c318a8-9db6-4ddc-84ec-d7aac0a16946.woff") format("woff"), url("../fonts/LT-WebFonts/fonts/5345108/f4c9fa80-125f-41a1-9cc0-071195855cb8.ttf") format("truetype");
+    src: url("../fonts/5345108/513a6dbd-6ed6-4ed6-b433-f30ee4fd83ec.eot?#iefix");
+    src: url("../fonts/5345108/513a6dbd-6ed6-4ed6-b433-f30ee4fd83ec.eot?#iefix") format("eot"), url("../fonts/5345108/d02cc25f-189b-4af6-a351-cd55c66a0de5.woff2") format("woff2"), url("../fonts/5345108/17c318a8-9db6-4ddc-84ec-d7aac0a16946.woff") format("woff"), url("../fonts/LT-WebFonts/fonts/5345108/f4c9fa80-125f-41a1-9cc0-071195855cb8.ttf") format("truetype");
 }
 
 @font-face {
     font-family: "Averta W05 Semibold Italic";
-    src: url("../fonts/LT-WebFonts/fonts/5359362/d8bd4007-8da5-43fb-9627-06f8a969990e.eot?#iefix");
-    src: url("../fonts/LT-WebFonts/fonts/5359362/d8bd4007-8da5-43fb-9627-06f8a969990e.eot?#iefix") format("eot"), url("../fonts/LT-WebFonts/fonts/5359362/642b7e0b-0bb8-460a-8c48-582a0ff230eb.woff2") format("woff2"), url("../fonts/LT-WebFonts/fonts/5359362/c77a7b0a-6451-4c2a-bb12-7055eb09957e.woff") format("woff"), url("../fonts/LT-WebFonts/fonts/5359362/e748a77f-2bde-4b65-8529-dbf19fa99c72.ttf") format("truetype");
+    src: url("../fonts/5359362/d8bd4007-8da5-43fb-9627-06f8a969990e.eot?#iefix");
+    src: url("../fonts/5359362/d8bd4007-8da5-43fb-9627-06f8a969990e.eot?#iefix") format("eot"), url("../fonts/5359362/642b7e0b-0bb8-460a-8c48-582a0ff230eb.woff2") format("woff2"), url("../fonts/5359362/c77a7b0a-6451-4c2a-bb12-7055eb09957e.woff") format("woff"), url("../fonts/5359362/e748a77f-2bde-4b65-8529-dbf19fa99c72.ttf") format("truetype");
 }
 
 
