@@ -569,6 +569,7 @@ h6 {
 }
 
 .title_h3 {
+    color: #ED0F69;
     font-size: 2.4285rem;
     margin-bottom: 2.71rem;
 }
@@ -625,6 +626,19 @@ h6 {
 
 @media only screen and (max-width: 580px) {
     .title_h7 {
+        font-size: 3rem;
+        margin-bottom: 5px;
+    }
+}
+
+.title_h8 {
+    color: #ED0F69;
+    font-size: 3.5rem;
+    margin-bottom: -5px;
+}
+
+@media only screen and (max-width: 580px) {
+    .title_h8 {
         font-size: 3rem;
         margin-bottom: 5px;
     }
